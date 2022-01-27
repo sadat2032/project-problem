@@ -1,0 +1,53 @@
+/common css start/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+ .container{
+     width: 1170px;
+     margin: 0 auto;
+    }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+//COMMON CSS END/  
+/NAV css start/
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 25%;
+}
+nav .menu{
+    width: 75%;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 25px;
+    transition: all .4s linear;
+
+
+}
+nav .menu ul li:hover a{
+    background-color: #cfc91f;
+}
+//NAV css END/

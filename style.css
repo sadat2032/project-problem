@@ -27,14 +27,19 @@ ul{
 nav{
     background-color: #02918c;
 }
+nav > .container > .row{
+    align-items: center;
+}
 nav .logo{
     width: 25%;
 }
 nav .menu{
     width: 75%;
+    text-align: right;
 }
 nav .menu ul li{
     display: inline-block;
+    margin: 12px 0;
 }
 nav .menu ul li a{
     display: inline-block;
@@ -42,8 +47,9 @@ nav .menu ul li a{
     font-weight: 800;
     text-transform: uppercase;
     color: #fff;
-    padding: 25px 25px;
-    transition: all .4s linear;
+    padding: 10px 25px;
+    transition: all .2s linear;
+    border-radius: 25px;
 
 
 }
@@ -51,3 +57,12 @@ nav .menu ul li:hover a{
     background-color: #cfc91f;
 }
 //NAV css END/
+/BAnner section css start/
+#banner{
+    height: 730px;
+    background: url(all imges/banner-01.jpg);
+    background: cover;
+
+}
+
+//BANNER sectiom css END/
